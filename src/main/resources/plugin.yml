@@ -1,0 +1,6 @@
+main: me.v3monsta.tabcompletemodifier.TabCompleteModifier
+
+name: TabCompleteModifier
+author: v3Monsta
+api-version: "1.15"
+version: 1.0-SNAPSHOT
