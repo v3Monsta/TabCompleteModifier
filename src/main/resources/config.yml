@@ -1,3 +1,6 @@
+# Set to true if the commands specified should be the only tab completions offered by the server.
+use-as-whitelist: false
+
 # Commands that should be blocked from tab.
 commands:
   - ver
