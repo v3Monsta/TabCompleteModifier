@@ -16,6 +16,8 @@ public class TabCompleteListener implements Listener {
 
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onTabComplete(PlayerCommandSendEvent event) {
+        if (event.getPlayer().hasPermission("tabcompletemodifier.bypass")) { return; }
+
         Collection<String> commands = event.getCommands();
         if (USE_AS_WHITELIST) {
             commands.clear();
